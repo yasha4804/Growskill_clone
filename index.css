@@ -1,0 +1,310 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", serif;
+}
+.mainbox{
+    height: 3000px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+.nav{
+    height: 90px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+}
+.logo{
+    height: 75px;
+    width:400px ;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+}
+.logo img{
+    height: 63%;
+    width: 160px;
+}
+.space{
+    height: 75px;
+    width: 500px;
+    background-color: rgb(255, 255, 255);
+}
+.menu{
+    height: 100%;
+    width:650px ;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.space2{
+    height: 60px;
+    width: 30px;
+    background-color:rgb(255, 255, 255);
+}
+.m{
+    height: 60px;
+    width: 105px;
+    font-size: 15px;
+    color: rgb(31, 30, 30);
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mn{
+    height: 60px;
+    width: 105px;
+    font-size: 28px;
+    color: rgb(31, 30, 30);
+    background-color: rgb(255, 255, 255);
+    flex-direction: row;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hr{
+    color: black;
+    height: 2px;
+    width: 100%;
+}
+.gro{
+    height: 550px;
+    width: 100%;
+    background: rgb(127,123,182);
+    background: linear-gradient(90deg, rgba(159, 157, 201, 0.981) 15%, rgba(60,143,188,1) 49%, rgba(103,22,190,0.9809173669467787) 92%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.head{
+    height: 300px;
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.head h1{
+    color: #ffffff;
+    font-size: 60px;
+    line-height: 80px;
+}
+.head p{
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 30px;
+}
+.search{
+    height: 60px;
+    width: 720px;
+    /* background-color: rgb(221, 202, 178); */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.sr{
+    height: 60px;
+    width: 60px;
+    color: rgb(132, 132, 132);
+    background-color: #ffffff;
+    font-size: 25px;
+    border: 0px;
+    border-radius: 8px 0px 0px 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search input{
+    height: 60px;
+    width: 640px;
+    font-size: 20px;
+    background-color: #ffffff;
+    color: rgb(171, 171, 171);
+    border: 0px;
+    outline: none;
+    border-radius: 0px 8px 8px 0px;
+    border-color: none;
+}
+.opti{
+    height: 120px;
+    width: 620px;
+    display: flex;
+    flex-wrap:wrap ;
+    row-gap: 15px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.op{
+    height: 30px;
+    width: 140px;
+    font-size: 15px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(234, 222, 222, 0.285);
+    color: #ffffff;
+    border: 0px;
+    border-radius: 20px;
+}
+.opt{
+    height: 30px;
+    width: 108px;
+    font-size: 15px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(234, 222, 222, 0.285);
+    color: #ffffff;
+    border: 0px;
+    border-radius: 20px;
+}
+.opto{
+    height: 30px;
+    width: 90px;
+    font-size: 15px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(234, 222, 222, 0.285);
+    color: #ffffff;
+    border: 0px;
+    border-radius: 20px;
+}
+.optio{
+    height: 30px;
+    width: 130px;
+    font-size: 15px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(234, 222, 222, 0.285);
+    color: #ffffff;
+    border: 0px;
+    border-radius: 20px;
+}
+
+.show{
+    height: 400px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    margin-top: 20px;
+    overflow: scroll;
+}
+.sho{
+    height: 100%;
+    width: fit-content;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+
+    animation:scroll 35s infinite linear;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+@keyframes scroll{
+    0% {
+        transform:translateX(0);
+    }
+    100% {
+          transform:translate(-2880px);
+    }
+}
+.so{
+    height: 400px;
+    width: 320px;
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+}
+.so img{
+    height: 100%;
+    width: 380px;
+    
+}
+.head2{
+    height: 150px;
+    width: 100%;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    line-height: 1.2;
+}
+.head2 h1{
+    font-size: 45px;
+    color: #000000;
+}
+.head2 h2{
+    font-size: 45px;
+    color: rgb(72,222,128);
+}
+.cours{
+    height: 480px;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+    column-gap: 60px;
+}
+.c1{
+    height: 430px;
+    width: 320px;
+    /* background-color: rgb(220, 17, 173); */
+}
+.cimg{
+    height: 57%;
+    width: 100%;
+
+}
+.cimg img{
+    width: 100%;
+}
+.cdisc{
+    height: 43%;
+    width: 100%;
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+}
+.pric{
+    font-size: 20px;
+    height: 20%;
+    
+}
+.cour{  
+    font-size:23px;
+    color: black;
+}
+.cbton{
+    height: 60px;
+    width: 275px;
+    color: #ffffff;
+    background-color: rgb(17, 2, 36);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     margin-left:3px; 
+    border-radius: 8px; 
+    margin-top: 5px;
+}
+.cc{
+    height: 30px;
+    width: 100%;
+    line-height: 1.8;
+    
+}
